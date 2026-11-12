@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.csv
+*.tmp
+.pytest_cache/
+draft_state*.json
+*.htm
+*.html
+paste_log.txt
+config_local.py

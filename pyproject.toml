@@ -1,0 +1,20 @@
+[project]
+name = "fantasy-drafter"
+version = "0.1.0"
+description = "Yahoo Fantasy Basketball player CSV converter and draft tracker"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pyside6>=6.12.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["draft_tracker/tests"]
